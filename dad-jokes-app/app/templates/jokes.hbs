@@ -1,0 +1,12 @@
+
+<h2>Jokes</h2>
+<ul>
+<h3>{{joke.joke1.joke}}</h3>
+{{#each jokes in model}}
+<li>
+  <h2>{{jokes.joke}}</h2>
+  <h2>{{jokes.punchline}}</h2>
+</li>
+{{/each}}
+</ul>
+{{outlet}}
