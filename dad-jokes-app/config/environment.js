@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     // contentSecurityPolicy: {'connect-src': "'self' wss://*.firebaseio.com"},
     firebase: {
-      apiKey: "AIzaSyC-aS4xPIwoKHiFcBqNDbk8bT7yvsv6PP0",
+      apiKey: "FIREBASE_KEY",
       authDomain: "dad-jokes-61ccf.firebaseapp.com",
       databaseURL: "https://dad-jokes-61ccf.firebaseio.com",
       projectId: "dad-jokes-61ccf",

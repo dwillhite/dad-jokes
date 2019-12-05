@@ -1,15 +1,10 @@
-<ul>
-{{this.model.joke}}
-{{this.model.punchline}}
-{{!-- {{#each model as |joke|}}
-  <li>
+<div class="container">
+  <div class="joke-card">
+    <h2 class="tagline">{{this.model.joke}}</h2>
+    <h2 class="punchline">{{this.model.punchline}}</h2>
+    <button class="btn new-joke" role="button" {{action 'newJoke'}}>New Joke</button>
+  </div>
  
-    id: {{joke.id}}<br>
-    {{joke.joke}}<br>
-    {{joke.punchline}}
-  </li>
-{{/each}} --}}
-</ul>
+</div>
 
-
-{{outlet}}
+{{!-- {{outlet}} --}}

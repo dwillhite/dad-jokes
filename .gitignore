@@ -1,1 +1,4 @@
-# /nodemodules
+#dependencies
+/nodemodules
+#api keys
+.env
