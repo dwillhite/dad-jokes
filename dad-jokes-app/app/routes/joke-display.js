@@ -12,7 +12,7 @@ export default Route.extend({
     //   return this.store.findRecord('jokes',`joke${num}`);
      
     // }
-
+    // theJoke.incrementProperty('laugh', 2)
   
     return theJoke;
     // .then(function(jokes){

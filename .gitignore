@@ -1,4 +1,5 @@
 #dependencies
 /nodemodules
-#api keys
+#environment - api keys
 .env
+dotenv.js
