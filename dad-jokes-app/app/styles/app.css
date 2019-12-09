@@ -75,3 +75,8 @@ h5 {
 .btn:hover {
   background: #2da803;
 }
+
+.header-button {
+  display: block;
+  float: right;
+}

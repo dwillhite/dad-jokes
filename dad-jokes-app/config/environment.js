@@ -13,7 +13,7 @@ module.exports = function(environment) {
       appId: "1:308473676899:web:562f104e298eeb3cdaa456"
     },
     modulePrefix: 'dad-jokes-app',
-    environment,
+    environment: 'production',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -55,6 +55,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.rootURL = '/dad-jokes-app';
   }
 
   return ENV;
